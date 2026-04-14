@@ -37,3 +37,36 @@ console.log(obj3);
     }
     // multiple objects can be in an array 
  ]
+
+const course = {
+    coursename : "js in hindi",
+    price : "999",
+    courseInstructor : "Hitesh",
+}
+
+// course.coursrInstructor 
+
+// destructuring objects  to remove repetion of above written line of code
+
+const{courseInstructor:instructor} = course
+
+// console.log(courseInstructor);
+console.log(instructor);
+
+// const navbar = ({company}) =>{
+
+// }
+
+// json form
+// {
+//     // all in string key and value both
+//     "name" : "abhinav",
+//     "coursename": "js in hindi",
+//     "price":"free",
+// }
+
+[
+    {},
+    {},
+    {},
+]
