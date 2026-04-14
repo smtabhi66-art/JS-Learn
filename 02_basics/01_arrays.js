@@ -40,5 +40,3 @@ console.log(myn2);
 // slice just give you the part from the array but 
 // in splice it simply manipulte the orignal array and cut the part of range from the array 
 // also this time complete range including the edges
-
-
