@@ -36,5 +36,26 @@ const result = addTwoNum(3,4)// here its argument the values
 function loginUserMessage(username){
     return `${username} just logged in`
 }
+// console.log(loginUserMessage("Abhinav"))
 
-console.log(loginUserMessage("Abhinav"))
+function calculateCartPrice(...num1){  // rest operation when variable parameters 
+    // rest operation ... these triple dots also called spread operator too depend on use
+    return num1
+}
+// console.log(calculateCartPrice(200,300,400));
+
+const user = {
+    username: "abhinav",
+    price : 199
+}
+function handleObject(anyobject){
+    console.log(`Username is ${anyobject.username} and price is ${anyobject.price}`);
+}
+
+// handleObject(user)
+handleObject({
+    username:"sam",
+    price: 699,
+})
+
+ 
