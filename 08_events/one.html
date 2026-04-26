@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html events</title>
+</head>
+<body style="background-color: #414141; color: aliceblue;">
+
+    <h2>Images</h2>
+
+    <div>
+        <ul id="images">
+            <li>
+                <img width="200px" id="photoshop"
+                src="https://images.pexels.com/photos/3561339/pexels-photo-3561339.jpeg"
+                alt="photoshop">
+            </li>
+
+            <li>
+                <img width="200px" id="random1"
+                src="https://images.pexels.com/photos/3532553/pexels-photo-3532553.jpeg"
+                alt="random1">
+            </li>
+
+            <li>
+                <img width="200px" id="random2"
+                src="https://images.pexels.com/photos/3532551/pexels-photo-3532551.jpeg"
+                alt="random2">
+            </li>
+
+            <li>
+                <img width="200px" id="random3"
+                src="https://images.pexels.com/photos/34950/pexels-photo.jpg"
+                alt="random3">
+            </li>
+        </ul>
+    </div>
+
+</body>
+
+<script>
+
+    // type,timestamp,defaultPrevented 
+    // // target,toElement,srcElement,currentTarget, 
+    // //clientX,clientY,screenX,screenY 
+    // //altkey,ctrl,key,keycode
+
+
+
+    // document.getElementById('images').addEventListener('click', function(e){
+    //     alert("click inside the ul")
+    // }, false);
+
+    // document.getElementById('random2').addEventListener('click', function(e){
+    //     alert("clicked random2");
+    //     e.stopPropagation()
+    // }, false);
+
+    // document.getElementById('random3').addEventListener('click',function(e){
+    //     e.preventDefault();
+    //     e.stopPropagation();
+    //     console.log("random3 clicked");
+        
+</script>
+</html>
